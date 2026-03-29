@@ -4,9 +4,27 @@ export default function Navbar() {
     const { theme, toggleTheme } = useTheme()
 
     return (
-        <nav className="w-full p-4 bg-(--color-bg) text-(--color-text) dark:bg-(--color-bg-dark) dark:text-(--color-text-dark) fixed top-0">
+        <nav className="z-10 w-full p-4 bg-(--color-bg) text-(--color-text) fixed top-0">
             <div className="max-w-6xl mx-auto flex justify-between items-center">
-                <h1 className="font-bold text-xl">Rai.dev</h1>
+                <h1 className="font-bold text-xl">Rai <span className="text-(--color-primary)">G</span>onçalves</h1>
+
+                <div className="space-x-4">
+                    <a href="#home" className="hover:text-(--color-primary)">
+                        Home
+                    </a>
+                    <a href="#about" className="hover:text-(--color-primary)">
+                        Sobre
+                    </a>
+                    <a href="#projects" className="hover:text-(--color-primary)">
+                        Projetos
+                    </a>
+                    <a href="#games" className="hover:text-(--color-primary)">
+                        Jogos
+                    </a>
+                    <a href="#contact" className="hover:text-(--color-primary)">
+                        Contato
+                    </a>
+                </div>
 
                 <button
                     onClick={toggleTheme}

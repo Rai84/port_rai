@@ -1,12 +1,12 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* * {
+* {
     @apply transition-colors duration-300;
-} */
+}
 
 :root {
-    --color-primary: #233d4d;
+    --color-primary: #51edc8;
     --color-bg: #efede3;
     --color-text: #000000;
     --color-text-secondary: #ffffff;
