@@ -4,7 +4,7 @@ export default function Navbar() {
     const { theme, toggleTheme } = useTheme()
 
     return (
-        <nav className="w-full p-4 bg-white dark:bg-black text-black dark:text-white fixed top-0">
+        <nav className="w-full p-4 bg-(--color-bg) text-(--color-text) dark:bg-(--color-bg-dark) dark:text-(--color-text-dark) fixed top-0">
             <div className="max-w-6xl mx-auto flex justify-between items-center">
                 <h1 className="font-bold text-xl">Rai.dev</h1>
 
