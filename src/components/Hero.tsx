@@ -1,6 +1,6 @@
 export default function Hero() {
     return (
-        <section className="min-h-screen flex flex-col justify-center items-center text-center bg-black text-white">
+        <section className="min-h-screen flex items-center justify-center bg-white dark:bg-black text-black dark:text-white transition-colors duration-300">
             <h1 className="text-5xl font-bold mb-4">
                 Rai Dev 🚀
             </h1>

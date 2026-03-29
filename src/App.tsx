@@ -1,15 +1,10 @@
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Projects from './components/Projects'
-import Footer from './components/Footer'
+import Navbar from "./components/Navbar"
 
 export default function App() {
   return (
-    <>
+    <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white">
       <Navbar />
-      <Hero />
-      <Projects />
-      <Footer />
-    </>
+      TESTE DARK MODE
+    </div>
   )
 }
