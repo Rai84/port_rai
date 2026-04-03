@@ -9,6 +9,13 @@ a {
     @apply transition-none;
 }
 
+.icon {
+    @apply flex items-center 
+    justify-center w-10 h-10 
+    rounded-lg transition-all duration-300 
+    hover:scale-110 hover:bg-(--color-primary) hover:text-white;
+}
+
 :root {
     --color-primary: #14b8a6;
     --color-bg: #efede3;
