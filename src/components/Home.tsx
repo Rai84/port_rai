@@ -1,4 +1,4 @@
-export default function Hero() {
+export default function Home() {
     return (
         <section id="home" className="min-h-screen flex items-center justify-center bg-(--color-bg) text-(--color-text)">
             <h1 className="text-5xl font-bold mb-4">
