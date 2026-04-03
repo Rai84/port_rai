@@ -5,8 +5,12 @@
     @apply transition-colors duration-300;
 }
 
+a {
+    @apply transition-none;
+}
+
 :root {
-    --color-primary: #51edc8;
+    --color-primary: #14b8a6;
     --color-bg: #efede3;
     --color-text: #000000;
     --color-text-secondary: #ffffff;

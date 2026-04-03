@@ -9,19 +9,19 @@ export default function Navbar() {
                 <h1 className="font-bold text-xl">Rai <span className="text-(--color-primary)">G</span>onçalves</h1>
 
                 <div className="space-x-4">
-                    <a href="#home" className="hover:text-(--color-primary)">
+                    <a href="#home" className="hover:text-(--color-primary)] transition-colors duration-300">
                         Home
                     </a>
-                    <a href="#about" className="hover:text-(--color-primary)">
+                    <a href="#about" className="hover:text-(--color-primary)] transition-colors duration-300">
                         Sobre
                     </a>
-                    <a href="#projects" className="hover:text-(--color-primary)">
+                    <a href="#projects" className="hover:text-(--color-primary)] transition-colors duration-300">
                         Projetos
                     </a>
-                    <a href="#games" className="hover:text-(--color-primary)">
+                    <a href="#games" className="hover:text-(--color-primary)] transition-colors duration-300">
                         Jogos
                     </a>
-                    <a href="#contact" className="hover:text-(--color-primary)">
+                    <a href="#contact" className="hover:text-(--color-primary)] transition-colors duration-300">
                         Contato
                     </a>
                 </div>
